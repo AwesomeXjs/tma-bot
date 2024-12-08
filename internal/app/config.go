@@ -23,7 +23,7 @@ type BotConfig struct {
 func NewBotConfig() (IBotConfig, error) {
 	token := os.Getenv(EnvBotToken)
 
-	if token == "" {
+	if len(token) == 0 {
 		logger.Error("failed to get bot token", zap.String("env", EnvBotToken))
 		return nil, fmt.Errorf("env %s not set", EnvBotToken)
 	}

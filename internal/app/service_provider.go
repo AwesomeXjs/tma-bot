@@ -10,6 +10,8 @@ import (
 type ServiceProvider struct {
 	botConfig IBotConfig
 
+	bot *bot.Bot
+
 	controller *controller.Controller
 }
 
@@ -26,6 +28,21 @@ func (s *ServiceProvider) BotConfig() IBotConfig {
 		s.botConfig = cfg
 	}
 	return s.botConfig
+}
+
+func (s *ServiceProvider) Bot() *bot.Bot {
+	if s.bot == nil {
+		opts := []bot.Option{
+			// bot.WithDefaultHandler(s.Controller(s.bot).DefaultHandler),
+		}
+
+		b, err := bot.New(s.BotConfig().GetToken(), opts...)
+		if err != nil {
+			logger.Error("failed to create bot", zap.Error(err))
+		}
+		s.bot = b
+	}
+	return s.bot
 }
 
 func (s *ServiceProvider) Controller(bot *bot.Bot) *controller.Controller {

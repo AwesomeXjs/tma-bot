@@ -1,2 +1,16 @@
 {"level":"error","timestamp":"2024-12-08T18:53:19.425+0500","msg":"failed to get bot token","env":"BOT_TOKEN"}
 {"level":"error","timestamp":"2024-12-08T18:53:19.428+0500","msg":"failed to get bot config","error":"env BOT_TOKEN not set"}
+{"level":"info","timestamp":"2024-12-08T20:19:10.991+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T20:19:45.378+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T20:31:49.461+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:10:32.882+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:12:35.526+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:13:14.773+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:19:19.595+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:29:34.981+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:32:44.776+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:34:24.238+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:34:44.567+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T21:46:25.458+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T22:40:21.001+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-08T22:42:04.766+0500","msg":"bot started"}

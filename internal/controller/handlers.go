@@ -1,7 +1,26 @@
 package controller
 
-import "github.com/go-telegram/bot"
+import (
+	"context"
+
+	"github.com/AwesomeXjs/tma-bot/internal/controller/filters"
+	"github.com/go-telegram/bot"
+	"github.com/go-telegram/bot/models"
+)
 
 func (c *Controller) RegisterHandlers() {
-	c.bot.RegisterHandler(bot.HandlerTypeMessageText, "/start", bot.MatchTypeExact, c.Start)
+	arr := []struct {
+		filter  func(*models.Update) bool
+		handler func(ctx context.Context, b *bot.Bot, update *models.Update)
+	}{
+		{filters.IsStart, c.Start},
+		{filters.IsHelp, c.Help},
+		{filters.IsPhoto, c.Photo},
+		{filters.IsVideo, c.Video},
+		{filters.IsMyID, c.MyID},
+	}
+
+	for _, v := range arr {
+		c.bot.RegisterHandlerMatchFunc(v.filter, v.handler)
+	}
 }

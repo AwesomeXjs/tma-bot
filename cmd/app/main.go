@@ -11,7 +11,7 @@ import (
 func main() {
 	ctx := context.Background()
 
-	bot, err := app.New(ctx)
+	bot, err := app.New()
 	if err != nil {
 		logger.Fatal("failed to create app", zap.Error(err))
 	}
