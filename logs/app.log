@@ -1,0 +1,2 @@
+{"level":"error","timestamp":"2024-12-08T18:53:19.425+0500","msg":"failed to get bot token","env":"BOT_TOKEN"}
+{"level":"error","timestamp":"2024-12-08T18:53:19.428+0500","msg":"failed to get bot config","error":"env BOT_TOKEN not set"}
