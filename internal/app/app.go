@@ -83,8 +83,7 @@ func (app *App) runBot(ctx context.Context) {
 	flag.Parse()
 	logger.Init(logger.GetCore(logger.GetAtomicLevel(logLevel)))
 
-	app.serviceProvider.Controller(app.serviceProvider.Bot()).RegisterHandlers()
+	app.serviceProvider.Controller().RegisterHandlers()
 	logger.Info("bot started")
 	app.serviceProvider.Bot().Start(ctx)
-
 }

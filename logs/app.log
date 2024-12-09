@@ -14,3 +14,23 @@
 {"level":"info","timestamp":"2024-12-08T21:46:25.458+0500","msg":"bot started"}
 {"level":"info","timestamp":"2024-12-08T22:40:21.001+0500","msg":"bot started"}
 {"level":"info","timestamp":"2024-12-08T22:42:04.766+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T11:44:09.426+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T11:49:13.280+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T12:24:42.429+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T14:01:23.259+0500","msg":"bot started"}
+{"level":"error","timestamp":"2024-12-09T14:01:25.128+0500","msg":"failed to register","error":"Post \"localhost:8080/api/v1/registration\": unsupported protocol scheme \"localhost\""}
+{"level":"error","timestamp":"2024-12-09T14:01:25.128+0500","msg":"failed to send message","error":"Post \"localhost:8080/api/v1/registration\": unsupported protocol scheme \"localhost\""}
+{"level":"info","timestamp":"2024-12-09T14:01:50.664+0500","msg":"bot started"}
+{"level":"error","timestamp":"2024-12-09T14:01:52.150+0500","msg":"failed to register","error":"parse \"127.0.0.1:8080/api/v1/registration\": first path segment in URL cannot contain colon"}
+{"level":"error","timestamp":"2024-12-09T14:01:52.151+0500","msg":"failed to send message","error":"parse \"127.0.0.1:8080/api/v1/registration\": first path segment in URL cannot contain colon"}
+{"level":"info","timestamp":"2024-12-09T14:02:29.982+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T14:17:17.839+0500","msg":"bot started"}
+{"level":"error","timestamp":"2024-12-09T14:17:36.958+0500","msg":"failed to register","error":"parse \"http://127.0.0.1:8080api/v1/registration\": invalid port \":8080api\" after host"}
+{"level":"error","timestamp":"2024-12-09T14:17:36.959+0500","msg":"failed to send message","error":"parse \"http://127.0.0.1:8080api/v1/registration\": invalid port \":8080api\" after host"}
+{"level":"info","timestamp":"2024-12-09T14:17:54.982+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:09:08.130+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:09:30.647+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:10:29.034+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:14:15.814+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:14:49.565+0500","msg":"bot started"}
+{"level":"info","timestamp":"2024-12-09T15:15:34.828+0500","msg":"bot started"}

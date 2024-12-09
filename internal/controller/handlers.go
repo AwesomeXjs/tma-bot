@@ -18,6 +18,7 @@ func (c *Controller) RegisterHandlers() {
 		{filters.IsPhoto, c.Photo},
 		{filters.IsVideo, c.Video},
 		{filters.IsMyID, c.MyID},
+		{filters.IsQuery, c.MyQuery},
 	}
 
 	for _, v := range arr {
